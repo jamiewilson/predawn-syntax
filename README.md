@@ -1,6 +1,4 @@
-# Predawn Syntax Theme for Atom
-
-This is the syntax color scheme that accompanies the Predawn them for Atom.
+# This is the color scheme that accompanies Predawn, a dark interface and syntax theme for [Atom](https://atom.io/packages/predawn-ui) and [Sublime Text](https://sublime.wbond.net/packages/Predawn).
 
 ## Installation
 
