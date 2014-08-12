@@ -10,7 +10,7 @@ Either, search for it in the Packages section in you Atom settings tab. Or from 
 apm install predawn-syntax
 ```
 
-![Predawn syntax and UI](predawn-atom.png)
+![Predawn syntax and UI](https://raw.githubusercontent.com/jamiewilson/predawn-syntax/master/predawn-atom.png)
 
 View on Atom.io at http://atom.io/packages/predawn-syntax
 
