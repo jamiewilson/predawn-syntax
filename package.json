@@ -1,7 +1,7 @@
 {
   "name": "predawn-syntax",
   "theme": "syntax",
-  "version": "1.0.0",
+  "version": "0.1.3",
   "description": "Syntax color scheme that accompanies the Predawn UI Theme",
   "repository": "https://github.com/jamiewilson/predawn-syntax",
   "license": "MIT",
