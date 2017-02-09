@@ -1,4 +1,4 @@
-# This Atom color scheme for [Predawn](https://github.com/jamiewilson/predawn-ui), a dark UI theme for [Atom](https://atom.io/packages/predawn-ui) and [Sublime Text](https://sublime.wbond.net/packages/Predawn).
+# This is the syntax part of the Predawn theme for Atom. Meant to be paired with [Predawn-UI](https://github.com/jamiewilson/predawn-ui).
 
 ## Installation
 
