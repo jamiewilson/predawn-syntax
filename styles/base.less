@@ -49,193 +49,154 @@ atom-text-editor.is-focused .selection .region {
 }
 
 atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-editor.is-focused .line.cursor-line {
-  background-color: #232323;
+  background-color: @predawn-gray-mono09;
   box-shadow: inset 0 1px 1px -1px rgba(0,0,0,0.5),
               inset 0 -1px 1px -1px rgba(0,0,0,0.5);
 }
 
 .syntax--comment {
-  color: #777777;
-}
-
-.syntax--string.syntax--quoted.syntax--double.syntax--block.syntax--python {
-  color: #777777;
+  color: @predawn-gray-mono04;
 }
 
 .syntax--constant {
-  color: #ECEC89;
+  color: @predawn-yellow-neutral;
 }
 
 .syntax--entity {
-  color: #92BFBF;
+  color: @predawn-blue-neutral;
 }
 
 .syntax--keyword {
-  color: #F49D62;
+  color: @predawn-orange-neutral;
 }
 
 .syntax--storage {
-  color: #ECEC89;
+  color: @predawn-yellow-neutral;
 }
 
 .syntax--string {
-  color: #BDDCDC;
+  color: @predawn-blue-pale;
 }
 
 .syntax--support {
-  color: #92BFBF;
+  color: @predawn-blue-neutral;
 }
 
 .syntax--variable {
-  color: #F49D62;
+  color: @predawn-orange-neutral;
 }
 
 .syntax--invalid, .syntax--keyword.syntax--other.syntax--important.syntax--scss {
-  color: #CF5340;
+  color: @predawn-orange-neutral;
 }
 
 .syntax--text.syntax--html.syntax--ruby .syntax--source {
-  background-color: #151515;
+  background-color: @predawn-black;
 }
 
 .syntax--entity.syntax--other.syntax--inherited-class {
-  color: #B4D388;
+  color: @predawn-green-neutral;
 }
 
 .syntax--string.syntax--quoted .syntax--source {
-  color: #B4D388;
+  color: @predawn-green-neutral;
 }
 
 .syntax--string .syntax--constant {
-  color: #B4D388;
+  color: @predawn-green-neutral;
 }
 
 .syntax--string.syntax--regexp {
-  color: #F49D62;
+  color: @predawn-orange-neutral;
 }
 
 .syntax--string .syntax--variable {
-  color: #ECEC89;
+  color: @predawn-yellow-neutral;
 }
 
 .syntax--support.syntax--function {
-  color: #F49D62;
+  color: @predawn-orange-neutral;
 }
 
 .syntax--support.syntax--constant {
-  color: #B4D388;
+  color: @predawn-green-neutral;
 }
 
 .syntax--other.syntax--preprocessor.syntax--c {
-  color: #92BFBF;
+  color: @predawn-blue-neutral;
 }
 
 .syntax--other.syntax--preprocessor.syntax--c .syntax--entity {
-  color: #92BFBF;
+  color: @predawn-blue-neutral;
 }
 
 .syntax--declaration.syntax--tag, .syntax--declaration.syntax--tag .syntax--entity, .syntax--meta.syntax--tag, .syntax--meta.syntax--tag .syntax--entity {
-  color: #B4D388;
+  color: @predawn-green-neutral;
 }
 
 .syntax--meta.syntax--selector.syntax--css .syntax--entity.syntax--name.syntax--tag, .syntax--entity.syntax--name.syntax--tag.syntax--scss, .syntax--source.syntax--scss .syntax--entity.syntax--other.syntax--attribute-name.syntax--pseudo-class.syntax--scss, .syntax--keyword.syntax--control.syntax--at-rule.syntax--include.syntax--scss, .syntax--entity.syntax--name.syntax--tag.syntax--wildcard.syntax--scss {
-  color: #ECEC89;
+  color: @predawn-yellow-neutral;
 }
 
 .syntax--meta.syntax--selector.syntax--css .syntax--entity.syntax--other.syntax--attribute-name.syntax--id, .syntax--meta.syntax--selector.syntax--scss .syntax--entity.syntax--other.syntax--attribute-name.syntax--id, .syntax--entity.syntax--name.syntax--tag.syntax--reference.syntax--scss {
-  color: #F49D62;
+  color: @predawn-orange-neutral;
 }
 
 .syntax--meta.syntax--selector.syntax--css .syntax--entity.syntax--other.syntax--attribute-name.syntax--class, .syntax--source.syntax--scss .syntax--entity.syntax--other.syntax--attribute-name.syntax--class.syntax--css, .syntax--keyword.syntax--other.syntax--default.syntax--scss {
-  color: #B4D388;
+  color: @predawn-green-neutral;
 }
 
 .syntax--support.syntax--type.syntax--property-name.syntax--css, .syntax--support.syntax--type.syntax--property-name.syntax--scss, .syntax--entity.syntax--other.syntax--attribute-name.syntax--pseudo-element.syntax--css, .syntax--entity.syntax--other.syntax--attribute-name.syntax--pseudo-class.syntax--css, .syntax--entity.syntax--other.syntax--attribute-name.syntax--attribute.syntax--css, .syntax--variable.syntax--scss, .syntax--meta.syntax--property-name.syntax--scss {
-  color: #92BFBF;
+  color: @predawn-blue-neutral;
 }
 
 .syntax--meta.syntax--property-group .syntax--support.syntax--constant.syntax--property-value.syntax--css, .syntax--meta.syntax--property-value .syntax--support.syntax--constant.syntax--property-value.syntax--css, .syntax--meta.syntax--property-group .syntax--support.syntax--constant.syntax--property-value.syntax--scss, .syntax--meta.syntax--property-value .syntax--support.syntax--constant.syntax--property-value.syntax--scss, .syntax--meta.syntax--property-list .syntax--meta.syntax--property-value.syntax--scss {
-  color: #ECEC89;
+  color: @predawn-yellow-neutral;
 }
 
 .syntax--meta.syntax--preprocessor.syntax--at-rule .syntax--keyword.syntax--control.syntax--at-rule {
-  color: #F49D62;
+  color: @predawn-orange-neutral;
 }
 
 .syntax--meta.syntax--property-value .syntax--support.syntax--constant.syntax--named-color.syntax--css, .syntax--meta.syntax--property-value .syntax--constant {
-  color: #ECEC89;
+  color: @predawn-yellow-neutral;
 }
 
 .syntax--source.syntax--css .syntax--string.syntax--quoted.syntax--single, .syntax--source.syntax--scss .syntax--string.syntax--quoted.syntax--single, .syntax--source.syntax--css .syntax--string.syntax--quoted.syntax--double, .syntax--source.syntax--scss .syntax--string.syntax--quoted.syntax--double, .syntax--source.syntax--css .syntax--variable.syntax--parameter, .syntax--variable.syntax--parameter.syntax--url.syntax--scss, .syntax--string.syntax--unquoted.syntax--attribute-value.syntax--scss, .syntax--string.syntax--unquoted.syntax--attribute-value.syntax--css {
-  color: #777777;
+  color: @predawn-gray-mono04;
 }
 
 .syntax--meta.syntax--constructor.syntax--argument.syntax--css {
-  color: #F18260;
+  color: @predawn-orange-bright;
 }
 
 .syntax--meta.syntax--diff, .syntax--meta.syntax--diff.syntax--header {
-  color: #DDDDDD;
-  background-color: #151515;
-}
-
-.syntax--markup.syntax--deleted {
-  color: #CF5340;
-  background-color: #151515;
-}
-
-.syntax--markup.syntax--changed {
-  color: #92BFBF;
-  background-color: #B4D388;
-}
-
-.syntax--markup.syntax--inserted {
-  color: #B4D388;
-  background-color: #151515;
-}
-
-.syntax--markup.syntax--deleted.git_gutter {
-  color: #CF5340;
-}
-
-.syntax--markup.syntax--changed.git_gutter {
-  color: #92BFBF;
-}
-
-.syntax--markup.syntax--inserted.git_gutter {
-  color: #B4D388;
-}
-
-.syntax--markup.syntax--ignored.git_gutter {
-  color: #777777;
-}
-
-.syntax--markup.syntax--untracked.git_gutter {
-  color: #777777;
+  color: @predawn-gray-mono02;
+  background-color: @predawn-black;
 }
 
 .sublimelinter.outline.syntax--notes {
-  background-color: #ECEC89;
+  background-color: @predawn-yellow-neutral;
 }
 
 .sublimelinter.outline.syntax--illegal {
-  background-color: #F18260;
+  background-color: @predawn-orange-bright;
 }
 
 .sublimelinter.syntax--underline.syntax--illegal {
-  background-color: #CF5340;
+  background-color: @predawn-orange-neutral;
 }
 
 .sublimelinter.outline.syntax--warning {
-  background-color: #F49D62;
+  background-color: @predawn-orange-neutral;
 }
 
 .sublimelinter.syntax--underline.syntax--warning {
-  background-color: #CF5340;
+  background-color: @predawn-orange-neutral;
 }
 
 .sublimelinter.outline.syntax--violation {
-  background-color: #777777;
+  background-color: @predawn-gray-mono04;
 }
 
 .sublimelinter.syntax--underline.syntax--violation {
@@ -243,83 +204,83 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
 }
 
 .syntax--entity.syntax--other.syntax--attribute-name.syntax--id.syntax--html {
-  color: #F49D62;
+  color: @predawn-orange-neutral;
 }
 
 .syntax--entity.syntax--other.syntax--attribute-name.syntax--html {
-  color: #ECEC89;
+  color: @predawn-yellow-neutral;
 }
 
 .syntax--punctuation.syntax--definition.syntax--tag.syntax--end, .syntax--punctuation.syntax--definition.syntax--tag.syntax--begin, .syntax--punctuation.syntax--definition.syntax--tag {
-  color: #92BFBF;
+  color: @predawn-blue-neutral;
 }
 
 .syntax--punctuation.syntax--section.syntax--function.syntax--scss, .syntax--punctuation.syntax--terminator.syntax--rule.syntax--scss, .syntax--punctuation.syntax--separator.syntax--key-value.syntax--scss {
-  color: #F1F1F1;
+  color: @predawn-gray-mono01;
 }
 
 .syntax--keyword.syntax--control.syntax--at-rule.syntax--import.syntax--css, .syntax--keyword.syntax--control.syntax--at-rule.syntax--import.syntax--scss, .syntax--keyword.syntax--control.syntax--at-rule.syntax--keyframes.syntax--css, .syntax--keyword.syntax--control.syntax--at-rule.syntax--keyframes.syntax--scss {
-  color: #ECEC89;
+  color: @predawn-yellow-neutral;
 }
 
 .syntax--meta.syntax--at-rule.syntax--media.syntax--css, .syntax--meta.syntax--at-rule.syntax--media.syntax--scss {
-  color: #f49d62;
+  color: @predawn-orange-neutral;
 }
 
 .syntax--variable.syntax--other.syntax--less {
-  color: #B4D388;
+  color: @predawn-green-neutral;
 }
 
 .syntax--entity.syntax--other.syntax--less.syntax--mixin {
-  color: #B4D388;
+  color: @predawn-green-neutral;
 }
 
 .syntax--source.syntax--css.syntax--less .syntax--keyword.syntax--unit.syntax--css {
-  color: #F18260;
+  color: @predawn-orange-bright;
 }
 
 .syntax--entity.syntax--other.syntax--attribute-name.syntax--angular.syntax--html, .syntax--source.syntax--angular.syntax--embedded.syntax--html {
-  color: #F18260;
+  color: @predawn-orange-bright;
 }
 
 .syntax--constant.syntax--character.syntax--entity.syntax--html {
-  color: #F18260;
+  color: @predawn-orange-bright;
 }
 
 .syntax--variable.syntax--other.syntax--readwrite.syntax--instance.syntax--coffee {
-  color: #B4D388;
+  color: @predawn-green-neutral;
 }
 
 .syntax--meta.syntax--brace.syntax--round.syntax--coffee, .syntax--meta.syntax--brace.syntax--square.syntax--coffee {
-  color: #ECEC89;
+  color: @predawn-yellow-neutral;
 }
 
 .syntax--punctuation.syntax--section.syntax--embedded.syntax--coffee {
-  color: #B4D388;
+  color: @predawn-green-neutral;
 }
 
 .syntax--variable.syntax--assignment.syntax--coffee .syntax--variable.syntax--assignment.syntax--coffee {
-  color: #DDDDDD;
+  color: @predawn-gray-mono02;
 }
 
 .syntax--meta.syntax--delimiter.syntax--method.syntax--period.syntax--coffee {
-  color: #F49D62;
+  color: @predawn-orange-neutral;
 }
 
 .syntax--meta.syntax--brace.syntax--curly.syntax--coffee {
-  color: #B4D388;
+  color: @predawn-green-neutral;
 }
 
 .syntax--meta.syntax--tag.syntax--sgml.syntax--doctype.syntax--xml, .syntax--declaration.syntax--sgml.syntax--html .syntax--declaration.syntax--doctype, .syntax--declaration.syntax--sgml.syntax--html .syntax--declaration.syntax--doctype .syntax--entity, .syntax--declaration.syntax--sgml.syntax--html .syntax--declaration.syntax--doctype .syntax--string, .syntax--declaration.syntax--xml-processing, .syntax--declaration.syntax--xml-processing .syntax--entity, .syntax--declaration.syntax--xml-processing .syntax--string, .syntax--doctype {
-  color: #777777;
+  color: @predawn-gray-mono04;
 }
 
 .brackethighlighter.syntax--default {
-  color: #92BFBF;
+  color: @predawn-blue-neutral;
 }
 
 .syntax--keyword.syntax--control.syntax--php {
-  color: #B4D388;
+  color: @predawn-green-neutral;
 }
 
 .syntax--keyword.syntax--operator.syntax--logical.syntax--php, .syntax--keyword.syntax--operator.syntax--assignment.syntax--php, .syntax--keyword.syntax--operator.syntax--class.syntax--php {
@@ -327,9 +288,9 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
 }
 
 .syntax--variable.syntax--other.syntax--property.syntax--php {
-  color: #ECEC89;
+  color: @predawn-yellow-neutral;
 }
 
 .syntax--string.syntax--regexp.syntax--single-quoted.syntax--php {
-  color: #BDDCDC;
+  color: @predawn-blue-pale;
 }
